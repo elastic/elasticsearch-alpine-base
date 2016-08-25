@@ -1,0 +1,7 @@
+---
+version: '2'
+services:
+  elasticsearch-alpine-base:
+    build:
+      context: build/elasticsearch-alpine-base
+    image: "${ELASTICSEARCH_BASEIMAGE}"
