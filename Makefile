@@ -1,5 +1,5 @@
 SHELL=/bin/bash
-ELASTIC_REGISTRY=container-registry.elastic.co
+ELASTIC_REGISTRY=docker.elastic.co
 ELASTICSEARCH_BASEIMAGE=$(ELASTIC_REGISTRY)/elasticsearch/elasticsearch-alpine-base:latest
 
 export ELASTICSEARCH_BASEIMAGE
