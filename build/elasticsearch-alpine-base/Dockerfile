@@ -3,7 +3,7 @@ FROM alpine:latest
 # Update image and install base packages
 RUN apk update && \
     apk upgrade && \
-    apk add bash openjdk8 openssl && \
+    apk add bash openjdk8 openssl curl && \
     rm -rf /var/cache/apk/*
 
 # Install elasticsearch user
